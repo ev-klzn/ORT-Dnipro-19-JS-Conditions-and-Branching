@@ -1,5 +1,5 @@
 let year = +prompt('Введите год в формате 1234');
-console.log(`введен год ${year}`);
+console.log(`введен ${year} год`);
 if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
     console.log('год високосный');
     alert('год високосный');
