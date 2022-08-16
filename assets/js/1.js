@@ -4,9 +4,9 @@ let h = +prompt('рост в см');
 h = h / 100;
 console.log(`рост в метрах: ${h}`);
 let index = mass / (h * h);
-index = index * 100;
+index = index * 10;
 index = Math.round(index);
-index = index / 100;
+index = index / 10;
 console.log(`индекс: ${index}`);
 
 if(index <= 16) {
